@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <aside>
+            <h1>Ambar & Martina — Two Minds</h1>
+            <p>Somos Ambar y Martina, y creamos esta página para todos los amantes de las mascotas. Aquí podrán encontrar información, consejos y datos interesantes sobre diferentes animales. Nuestro objetivo es promover el cuidado, el respeto y el amor hacia nuestras mascotas.¡Esperamos que disfruten nuestra página tanto como nosotras disfrutamos crearla!</p>
+            <div class="card">
+                <h2>Mascotas y cuidados</h2>
+                <img src="mascotasinicio.png" alt="Cuidados y mascotas">
+                <p>Las mascotas necesitan una alimentación equilibrada, agua fresca y un lugar limpio y seguro para vivir.
+                    También es importante llevarlas al veterinario para controlar su salud y mantener sus vacunas al día.
+                    El ejercicio y los juegos ayudan a que se mantengan activas, felices y saludables.
+                    Además, necesitan mucho cariño, atención y compañía para sentirse queridas y protegidas.</p>
+            </div>
+            
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="paginas/hobbies.html">Mascotas</a>
+                <a href="paginas/musica.html">Cuidados</a>
+            </nav>
+           
+            <h3>Ejercicios y desafíos</h3>
+            <ul>
+                <li><a href="./pages/listas.html" target="visor">Ejercicio 1: listas</a></li>
+                <li><a href="./pages/Tabla1.html" target="visor">Ejercicio 2: tablas</a></li>
+                <li><a href="./pages/tienda.html" target="visor">Ejercicio 3: semantica</a></li>
+                <li><a href="./pages/semantica.html" target="visor">Ejercicio 4: informes</a></li>
+                <li><a href="./pages/diario.html" target="visor">Ejercicio 5: Diario</a></li>
+            </ul>
+
+            <img src="../img/mascota.jpg" alt="mascotas" width="30%">
+        </aside>
+
+</body>
+</html>
