@@ -1,0 +1,86 @@
+/* Fondo y estilo general de la página */
+body {
+    background-color: #fff5f8;
+    font-family: Arial, sans-serif;
+    color: #4a3b42;
+    margin: 0;
+    padding: 30px;
+    }
+    
+    /* Títulos */
+    h1 {
+    color: #c45a7c;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+    
+    h2 {
+    color: #b84f70;
+    font-size: 24px;
+    }
+    
+    /* Párrafos */
+    p {
+    font-size: 17px;
+    line-height: 1.6;
+    }
+    
+    /* Menú y enlaces */
+    nav {
+    text-align: center;
+    margin: 25px 0;
+    }
+    
+    a {
+    color: #c45a7c;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    }
+    
+    a:hover {
+    color: #8f3656;
+    text-decoration: underline;
+    }
+    
+    /* Imágenes */
+    img {
+    max-width: 100%;
+    border-radius: 15px;
+    }
+    
+    /* Contenedor de las cards */
+    .contenedor-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+    }
+    
+    /* Cards */
+    .card {
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #e7a6b9;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(180, 79, 112, 0.15);
+    }
+    
+    /* Imágenes dentro de las cards */
+    .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    }
+    
+    /* Efecto al pasar el mouse por una card */
+    .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(180, 79, 112, 0.25);
+    }
